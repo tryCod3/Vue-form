@@ -13,6 +13,11 @@ Vue.use(IconsPlugin);
 
 Vue.config.productionTip = false;
 
+// event
+
 new Vue({
 	render: h => h(App),
 }).$mount("#app");
+
+const listForm = document.querySelectorAll("form-group");
+console.log(listForm);
